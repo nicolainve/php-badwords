@@ -23,7 +23,6 @@
     <a href="./?badword=***">Disattiva il filtro</a>
     
     <p><?php echo str_replace($badword, '***', $text) ?></p>
-    <p><?php echo str_replace('***', $badword, $text) ?></p>
     
 </body>
 </html>
